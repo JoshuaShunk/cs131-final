@@ -1,0 +1,43 @@
+{
+  "name": "cs131-nerf",
+  "version": "1.0.0",
+  "description": "Stadium seat view preview using NeRF models",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.1.0",
+    "ajv": "^8.17.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-components": "^6.1.15",
+    "three": "^0.174.0",
+    "use-sync-external-store": "^1.2.0",
+    "webpack": "^5.98.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1",
+    "react-scripts": "^5.0.1",
+    "rollup": "^2.79.2"
+  }
+}
